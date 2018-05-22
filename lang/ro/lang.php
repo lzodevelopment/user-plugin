@@ -2,16 +2,16 @@
 
 return [
     'plugin' => [
-        'name' => 'Utilizatori',
+        'name' => 'User',
         'description' => 'Front-end user management.',
-        'tab' => 'Utilizatori',
+        'tab' => 'Users',
         'access_users' => 'Manage Users',
         'access_groups' => 'Manage User Groups',
         'access_settings' => 'Manage User Settings',
         'impersonate_user' => 'Impersonate Users'
     ],
     'users' => [
-        'menu_label' => 'Utilizatori',
+        'menu_label' => 'Users',
         'all_users' => 'All Users',
         'new_user' => 'New User',
         'list_title' => 'Manage Users',
@@ -65,7 +65,7 @@ return [
         'unban_selected_success' => 'Successfully unbanned the selected users.',
     ],
     'settings' => [
-        'users' => 'Utilizatori',
+        'users' => 'Users',
         'menu_label' => 'User settings',
         'menu_description' => 'Manage user based settings.',
         'activation_tab' => 'Activation',
@@ -92,12 +92,12 @@ return [
         'login_attribute_comment' => 'Select what primary user detail should be used for signing in.',
     ],
     'user' => [
-        'label' => 'Utilizator',
+        'label' => 'User',
         'id' => 'ID',
         'username' => 'Username',
-        'name' => 'Nume',
+        'name' => 'Name',
         'name_empty' => 'Anonymous',
-        'surname' => 'Prenume',
+        'surname' => 'Surname',
         'email' => 'Email',
         'created_at' => 'Registered',
         'last_seen' => 'Last seen',
@@ -182,7 +182,7 @@ return [
         'new_password_confirm' => 'Confirm New Password'
     ],
     'reset_password' => [
-        'reset_password' => 'Reseteaza Parola',
+        'reset_password' => 'Reset Password',
         'reset_password_desc' => 'Forgotten password form.',
         'code_param' => 'Reset Code Param',
         'code_param_desc' => 'The page URL parameter used for the reset code'
